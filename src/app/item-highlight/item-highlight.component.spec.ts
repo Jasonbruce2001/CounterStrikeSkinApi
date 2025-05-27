@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { SearchItemComponent } from './search-item.component';
+import { ItemHighlightComponent } from './item-highlight.component';
 
-describe('SearchItemComponent', () => {
-  let component: SearchItemComponent;
-  let fixture: ComponentFixture<SearchItemComponent>;
+describe('ItemHighlightComponent', () => {
+  let component: ItemHighlightComponent;
+  let fixture: ComponentFixture<ItemHighlightComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [SearchItemComponent]
+      imports: [ItemHighlightComponent]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(SearchItemComponent);
+    fixture = TestBed.createComponent(ItemHighlightComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

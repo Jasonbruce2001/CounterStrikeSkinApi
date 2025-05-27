@@ -1,41 +1,9 @@
 <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
-<!-- * * * * * * * * * * * The content below * * * * * * * * * * * -->
-<!-- * * * * * * * * * * is only a placeholder * * * * * * * * * * -->
-<!-- * * * * * * * * * * and can be replaced.  * * * * * * * * * * -->
-<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
-<!-- * * * * * * * * * Delete the template below * * * * * * * * * -->
-<!-- * * * * * * * to get started with your project! * * * * * * * -->
+<!-- * * * * * * * * * * * * * App Layout * * * * * * * * * * * * * -->
 <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
 
-<style>
-  .layout {
-    max-width: 68.75rem; /* 1100px */
-    width: 90%;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  .title {
-    padding: 5vh;
-  }
-</style>
-
-<main class="main font-mono ">
-  <h1 class="title bg-amber-300 text-center text-4xl">Angular & Ajax Practice</h1>
-  <div class="layout">
-      <div class="container text-end my-5 flex-end content-center">
-        <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded" (click)="refresh()"><span class="material-icons">refresh</span></button>
-      </div>
-      <div class="text-center grid grid-cols-3 grid-rows-2 item-list" id="item-list"></div>
-  </div>
+<main class="main font-mono">
+  <h1 class="title bg-amber-300 text-center text-4xl py-8">Angular & Ajax Practice</h1>
+  <router-outlet />
 </main>
-<script>document.onload(()=>'refresh()')</script>
 
-<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
-<!-- * * * * * * * * * * * The content above * * * * * * * * * * * * -->
-<!-- * * * * * * * * * * is only a placeholder * * * * * * * * * * * -->
-<!-- * * * * * * * * * * and can be replaced.  * * * * * * * * * * * -->
-<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
-<!-- * * * * * * * * * * End of Placeholder  * * * * * * * * * * * * -->
-<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
-
-<router-outlet />
